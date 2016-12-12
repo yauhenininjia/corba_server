@@ -1,0 +1,8 @@
+module DaysApp
+{
+  interface DayService
+  {
+    long add(in string a,in string b);
+    oneway void shutdown();
+    };
+};

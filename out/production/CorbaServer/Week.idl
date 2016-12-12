@@ -1,0 +1,8 @@
+module WeeksApp
+{
+  interface WeekService
+  {
+    long add(in string a,in string b);
+    oneway void shutdown();
+    };
+};
